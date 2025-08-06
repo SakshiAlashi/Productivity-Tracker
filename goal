@@ -1,0 +1,14 @@
+Implement functionality to:
+Add/view/update/delete tasks.
+Track habit streaks.
+Take quick notes.
+Save/load user session.
+Log every action.
+
+productivity_tracker/
+├── main.py            # Main application script
+├── tasks.csv          # Stores daily tasks
+├── habits.json        # Stores habit tracking (e.g., water intake, reading)
+├── notes.txt          # Journal or user notes
+├── session.pkl        # Stores session data using Pickle
+├── activity.log       # Logs app usage/events
