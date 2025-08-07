@@ -6,9 +6,15 @@ Save/load user session.
 Log every action.
 
 productivity_tracker/
-├── main.py            # Main application script
-├── tasks.csv          # Stores daily tasks
-├── habits.json        # Stores habit tracking (e.g., water intake, reading)
-├── notes.txt          # Journal or user notes
-├── session.pkl        # Stores session data using Pickle
-├── activity.log       # Logs app usage/events
+├── streamlit_app.py                 # Main Streamlit UI file
+├── utils/
+│   ├── tasks.py                     # Task management logic
+│   ├── habits.py                    # Habit tracking logic
+│   └── notes.py                     # Notes handling logic
+├── data/
+│   ├── tasks.csv                    # Task data (CSV)
+│   ├── habits.json                  # Habit data (JSON)
+│   ├── notes.txt                    # Notes (TXT)
+│   ├── session.pkl                  # Session state (Pickle)
+│   └── activity.log                 # Activity logs
+└── README.md                        # Project overview
